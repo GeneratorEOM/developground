@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #202020; margin: 0px;
+	padding: 0px; font-size: 1em;
+	color: #333;
+	color: white;
+}/*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+form#join {margin:10px 0 0 0; width: 670px}
+/*밖여백 10px 0 0 0 너비670px*/
+article {
+
+margin: 200px auto;
+background-color: #333333;
+width:800px;
+height: 950px;
+border-radius: 5px;
+padding: 15px;
+}
+form#join {margin:10px 0 0 0; width: 670px}
+/*밖여백 10px 0 0 0 너비670px*/
+form#join fieldset{padding: 10px 0 20px 5px;
+margin-left: 70px;
+border: none;}
+/*안여백 10px 0 20px 5px 테두리없음*/
+form#join fieldset legend{
+
+font-family: seo;
+font-size: 20px; border-bottom: 1px dotted #666;
+width: 700px; padding: 5px 0;}
+/*글자체 seo 글자크기20px
+테두리아래 1px dotted #666 너비600px 안여백 5px 0*/
+form#join label{width: 140px;float: left;
+margin: 5px 0}
+/*너비 140px 정렬 왼쪽 밖여백 5px 0*/
+form#join input{margin: 5px 0; border: 1px solid #999;
+font-size: 17px;
+border-radius: 3px;
+background-color: #F2F2F2;
+ }
+/*밖여백 5px 0 테두리 1px solid #999
+배경색 #FCFDEA*/
+form#join input.id{width: 100px;
+height: 18px;}/*너비 100px 높이 18px*/
+form#join input.dup{width: 120px; height: 23px;
+border-radius:3px; border: none;
+margin: 0 0 0 5px; font-weight: bold; font: 
+background-repeat: repeat-x;
+background-position: center center;}
+/*너비 120px 높이23px 
+테두리둥글게 8px 테두리none 밖여백 0 0 0 5px
+글자굵기bold 글자색 #FFF 
+배경이미지 images/member/dup.jpg
+repeat-x center center*/
+form#join #buttons .submit,form#join #buttons .submit2,form#join #buttons .cancel{
+	height: 30px; width: 150px; border: 1px solid;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 230px;
+}
+/*높이 30px 너비150px 테두리 1px solid #666
+테두리둥글게 10px 박스그림자 3px 3px 2px #CCC
+글자크기 14px*/
+form#join #buttons .submit{
+
+background-repeat: repeat-x;
+background-position: center center;
+}form#join #buttons .submit2{
+	
+margin-left: 100px;
+background-repeat: repeat-x;
+background-position: center center;
+}/*
+배경이미지 images/member/submit_back.jpg
+repeat-x center center 글자색 #fff*/
+form#join #buttons .cancel{margin: 0 0 0 20px;
+background-repeat: repeat-x;
+background-position: center center;
+}
+#sub_img_member{width: 971px;height: 179px;
+background-image: url("../images/member/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;
+}
+article img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 330px;
+	border-radius: 30%;
+	
+}
+article h1 {
+	margin-left: 74px;
+	margin-bottom: 30px;	
+}

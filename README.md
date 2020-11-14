@@ -51,8 +51,8 @@ private Connection getConnection() throws Exception{
  Class.forName("com.mysql.jdbc.Driver");
  // 디비 연결정보를 담는다
  String dbUrl="jdbc:mysql://localhost:3306/jspdb1";
- String dbUser="root";
- String dbPass="1234";
+ String dbUser="jspid";
+ String dbPass="jsppass";
  Connection con=DriverManager.getConnection(dbUrl, dbUser, dbPass);
  return con;
 }

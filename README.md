@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/64389409/99186568-7b2b2400-2794-11eb-834a-b2046bc44f5a.png" width="20%" heigth="20%">  
+
 # DEVELOPGROUNDS
 
 > 개발자간 소통할 수 있는 커뮤니티 사이트
